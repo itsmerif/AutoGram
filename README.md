@@ -1,4 +1,4 @@
-# **Geogramint - OSINT Geolocalization tool for Telegram**
+# **AutoGram - OSINT Automation tool for Telegram**
 <p align="center">
 <img src="https://github.com/Alb-310/Geogramint/blob/master/appfiles/Geogramint.png" width="300"/>
 </p>
@@ -8,7 +8,7 @@
 
 ## **About**
 
-Geogramint is an OSINT tool that uses Telegram's API to find nearby users and groups. Inspired by [Tejado's Telegram Nearby Map](https://github.com/tejado/telegram-nearby-map), which is no longer maintained, it aims to provide a more user-friendly alternative.
+AutoGram is an OSINT tool that uses Telegram's API to find nearby users and groups. Inspired by [Tejado's Telegram Nearby Map](https://github.com/tejado/telegram-nearby-map), which is no longer maintained, it aims to provide a more user-friendly alternative.
 
 Geogramint only finds Telegram users and groups which have activated the nearby feature. Per default it is deactivated.
 
@@ -25,42 +25,42 @@ The tool is fully supported on Windows and partially supported on Mac OS and Lin
 + #### With the installer: Click [here!](https://github.com/Alb-310/Geogramint/releases)
 + #### With Github:
 ```bash
-git clone https://github.com/Alb-310/Geogramint.git
-cd Geogramint/
+git clone https://github.com/itsmerif/AutoGram.git
+cd AutoGram
 pip3 install -r requirements.txt
 
-python3 geogramint.py # for GUI mode
-python3 geogramint.py --help # for CLI mode
+python3 autogram.py # for GUI mode
+python3 autogram.py --help # for CLI mode
 ```
 Or depending on your installation :
 ```bash
-git clone https://github.com/Alb-310/Geogramint.git
-cd Geogramint/
+git clone https://github.com/itsmerif/AutoGram.git
+cd AutoGram/
 pip install -r requirements.txt
 
-python geogramint.py # for GUI mode
-python geogramint.py --help # for CLI mode
+python autogram.py # for GUI mode
+python autogram.py --help # for CLI mode
 ```
 
 ### On Mac OS  [![macOS](https://svgshare.com/i/ZjP.svg)](https://svgshare.com/i/ZjP.svg) and Linux [![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg)
 
 + #### With Github:
 ```bash
-git clone https://github.com/Alb-310/Geogramint.git
-cd Geogramint/
+git clone https://github.com/itsmerif/AutoGram.git
+cd AutoGram/
 pip3 install -r requirements.txt
 
-python3 geogramint.py # for GUI mode
-python3 geogramint.py --help # for CLI mode
+python3 autogram.py # for GUI mode
+python3 autogram.py --help # for CLI mode
 ```
 Or depending on your installation :
 ```bash
-git clone https://github.com/Alb-310/Geogramint.git
-cd Geogramint/
-pip install -r requirements.txt
+git clone https://github.com/itsmerif/AutoGram.git
+cd AutoGram/
+pip3 install -r requirements.txt
 
-python geogramint.py # for GUI mode
-python geogramint.py --help # for CLI mode
+python autogram.py # for GUI mode
+python autogram.py --help # for CLI mode
 ```
 
 More details in the [Wiki](https://github.com/Alb-310/Geogramint/wiki/Installation-Guide).
