@@ -79,7 +79,7 @@ def telegramAPICall():
         users, groups, timestamp = geolocate_AllEntities_Nearby(api_id, api_hash, phone_number, float(lat), float(lon))
     except Exception as e:
         error = True
-        Logger.info(f"Geogramint Search: Nothing Found")
+        Logger.info(f"AutoGram Search: Nothing Found")
         searchStarted = False
         return
     enabled = True
@@ -135,7 +135,7 @@ def telegramCodeDialog():
         helper_text="Wrong format"
     )
     password_input = MDTextField(
-        hint_text="Password Two-Step Verification (optional):",
+        hint_text="Password Two-Step Verification (if applicable):",
         helper_text_mode="on_error",
         helper_text="Wrong format"
     )
@@ -200,7 +200,7 @@ def export_pdf_report(dt):
                                                                     extended_report))
             t.start()
         except:
-            Logger.info("Geogramint report: an error has occured during report creation")
+            Logger.info("AutoGram report: an error has occured during report creation")
     elif not os.path.isfile(path):
         if path[len(path) - 4:] != '.pdf':
             path += '.pdf'
